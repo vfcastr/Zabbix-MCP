@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "Zabbix": {
+            "type": "http",
+            "url": "YOUR-ZABBIX-MCP-SERVER-URL/mcp",
+            "headers": {
+                "X-Zabbix-URL": "YOUR-ZABBIX-URL",
+                "X-Zabbix-Token": "YOUR-ZABBIX-TOKEN"
+            }
+        }
+    }
+}

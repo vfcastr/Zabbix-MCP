@@ -1,0 +1,12 @@
+.git
+.github
+.gitignore
+*.md
+!README.md
+!zabbix_documentation.md
+Makefile
+*.log
+bin/
+dist/
+.vscode/
+.idea/

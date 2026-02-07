@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "Zabbix MCP Server": {
+            "type": "http",
+            "url": "YOUR-ZABBIX-MCP-SERVER-URL/mcp",
+            "headers": {
+                "X-Zabbix-URL": "YOUR-ZABBIX-URL/api_jsonrpc.php",
+                "X-Zabbix-Token": "YOUR-ZABBIX-TOKEN"
+            }
+        }
+    }
+}

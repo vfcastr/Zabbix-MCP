@@ -1,0 +1,16 @@
+{
+  "name": "zabbix-mcp-server",
+  "version": "1.0.0",
+  "description": "Zabbix MCP Server for managing Zabbix 7.0 LTS hosts, items, triggers, templates, and maintenance",
+  "publisher": "vfcastr",
+  "mcp": {
+    "command": "./zabbix-mcp-server",
+    "args": [
+      "stdio"
+    ],
+    "env": {
+      "ZABBIX_URL": "${ZABBIX_URL}",
+      "ZABBIX_TOKEN": "${ZABBIX_TOKEN}"
+    }
+  }
+}
